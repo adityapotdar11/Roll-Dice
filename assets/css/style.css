@@ -1,9 +1,19 @@
-.image-section{
+.image-section {
     height: 150px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.roll-section{
+.roll-section {
     border-radius: 10px;
 }
+
+/* Media query Start */
+@media screen and (max-width: 767px) {
+    .roll-section {
+        margin: auto;
+        width: 90%;
+    }
+}
+
+/* Media query End */
